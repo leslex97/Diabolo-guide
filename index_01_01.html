@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+	<head>
+		<title>Page Title</title>
+		<script src="script.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div id="mainDiv">
+			<table class="characterStats" style="text-align: center">
+				<tr class="tableHeader">
+					<th>Race</th>
+					<th>Movement Speed</th>
+					<th>Attack Speed</th>
+				</tr>
+				<tr class="warrior">
+					<td>Warrior</td>
+					<td>75</td>
+					<td>84</td>
+				</tr>
+				<tr class="barbarian">
+					<td>Barbarian</td>
+					<td>66</td>
+					<td>71</td>
+				</tr>
+				<tr class="archer">
+					<td>Archer</td>
+					<td>90</td>
+					<td>88</td>
+				</tr>
+				<tr class="wizzard">
+					<td>Wizzard</td>
+					<td>93</td>
+					<td>60</td>
+				</tr>
+				<tr class="healer">
+					<td>Healer</td>
+					<td>100</td>
+					<td>30</td>
+				</tr>
+			</table>
+			<div>
+				<textarea id="info">Wybierz swoją postać i nadaj jej nazwę.</textarea>
+			</div>
+			<select id="characterSelect">
+				<option value="0">Wojownik</option>
+				<option value="1">Barbarzynca</option>
+				<option value="2">Lucznik</option>
+				<option value="3">Mag</option>
+				<option value="4">Uzdrowiciel</option>
+			</select>
+			<input id="nickname" placeholder="twoj nick" />
+			<button id="alertBtn">Stwórz Postać!</button>
+		</div>
+	</body>
+</html>

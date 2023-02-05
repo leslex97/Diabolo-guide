@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- 
+    Data pierwszej modyfikacji : 18.12.2022 14:00
+    Autor : Paweł Woroniecki
+    Przedmiot / Temat : Technologie hipertekstowe i języki znaczników / XML
+-->
+<!-- Inspirowane grą "Diablo 2" -->
+<bohaterowie>
+    <postac id='1' className='warrior' mainAbility='strenght' secondAbility='dexterity' mainSkill='warrior cry' extraSkill='charge'>Wojownik
+        <opis>
+            Wojownicy to grupa rycerzy Zakarum wyszkolonych do zabijania potworów i unicestwiania zła. Posługują się głównie mieczem i tarczą, ale do dyspozycji mają również potężne aury. Wojownik to postać uniwersalna, głównie dzięki umiejętności korzystania z błogosławionych aur. 
+        </opis>
+        <wyglad>
+        <![CDATA[
+        https://cdna.artstation.com/p/assets/images/images/020/674/572/large/haotan-zhang-screenshot012.jpg?1568730828
+        ]]> 
+        </wyglad>
+        <ekwipunek>
+            <lewa_reka>
+                <bronie equipName='wariorLWeapons'>
+                    <bron id='1.1.1' type='sword'>Miecz jednoreczny</bron>
+                    <bron id='1.1.2' type='sword'>Miecz dwureczny</bron>
+                    <bron id='1.1.3' type='axe'>Siekierka</bron>
+                    <bron id='1.1.4' type='axe'>Topór</bron>
+                </bronie>
+            </lewa_reka>
+            <prawa_reka>
+                <tarcze equipName = 'wariorShields'>
+                    <tarcza id='1.2.1' type='shield'>Puklerz</tarcza>
+                    <tarcza id='1.2.2' type='shield'>Mała tarcza</tarcza>
+                    <tarcza id='1.2.3' type='shield'>Trójkątna tarcza</tarcza>
+                    <tarcza id='1.2.4' type='shield'>Duża tarcza</tarcza>
+                    <tarcza id='1.2.5' type='shield'>Kolczasta tarcza</tarcza>
+                </tarcze>
+                <bronie equipName='wariorRWeapons'>
+                    <bron id='1.3.1' type='sword'>Miecz dwureczny</bron>
+                    <bron id='1.3.2' type='axe'>Siekierka</bron>
+                    <bron id='1.3.3' type='axe'>Topór</bron>
+                </bronie>
+            </prawa_reka>
+            <pancerze equipName='wariorArmors'>
+                <pancerz id='1.4.1' type='armor'>Skorzany stroj</pancerz>
+                <pancerz id='1.4.2' type='armor'>Lekka zbroja</pancerz>
+                <pancerz id='1.4.3' type='armor'>Ciezka zbroja</pancerz>
+            </pancerze>
+            <dodatki_1 equipName='wariorExtraEquip1'>
+                <dodatek id='1.5.1' type='jewelry'>Naszyjnik</dodatek>
+                <dodatek id='1.5.2' type='jewelry'>Bransoleta</dodatek>
+                <dodatek id='1.5.3' type='jewelry'>Amulet</dodatek>
+            </dodatki_1>
+            <dodatki_2 equipName = 'wariorExtraEquip2'>
+                <dodatek id='1.6.1' type='mixture'>Mikstura leczenia</dodatek>
+                <dodatek id='1.6.2' type='mixture'>Mikstura szybkosci</dodatek>
+                <dodatek id='1.6.3' type='mixture'>Mikstura ataku</dodatek>
+            </dodatki_2>
+        </ekwipunek>
+    </postac>
+
+    <postac id='2' className='barbarian' mainAbility='Strenght' secondAbility='vitality' mainSkill='battle frenzy' extraSkill='whirlwind'>Wojownik >Barbarzynca
+        <opis>
+        Barbarzyńca to potężny, ciężkozbrojny wojownik, pochodzący z plemienia, które niegdyś strzegło świętej góry Arreat.
+        Walczy z wielką zaciekłością używając broni do walki wręcz.
+        Dzięki swej ogromnej sile może władać potężną bronią dwuręczną, dwoma rodzajami broni naraz, lub też bronią i tarczą.
+        Gdy otrzymuje lub zadaje obrażenia, barbarzyńca gromadzi furię, którą wykorzystuje do wyprowadzania zabójczych ciosów.
+        </opis>
+            <wyglad>
+        <![CDATA[
+        https://static.icy-veins.com/images/d2/og-images/barbarian.jpg
+        ]]>
+        </wyglad>
+        <ekwipunek>
+            <lewa_reka>
+                <bronie equipName ='barbarianLWeapons'>
+                    <bron id='2.1.1' type='axe'>Topór</bron>
+                    <bron id='2.1.2' type='sword'>Miecz dwureczny</bron>
+                    <bron id='2.1.3' type='axe'>Maczuga</bron>
+                    <bron id='2.1.4' type='polearms'>Broń drzewcowa</bron>
+                </bronie>
+            </lewa_reka>
+            <prawa_reka>
+                <bronie equipName = 'barbarianRWeapons'>
+                    <bron id='2.3.1' type='axe'>Topór</bron>
+                    <bron id='2.3.2' type='sword'>Miecz dwureczny</bron>
+                    <bron id='2.3.3' type='axe'>Maczuga</bron>
+                    <bron id='2.3.4' type='polearms'>Broń drzewcowa</bron>
+                </bronie>
+            </prawa_reka>
+            <pancerze equipName ='barbarianArmors'>
+                <pancerz id='2.4.1' type='armor'>Skorzany stroj</pancerz>
+                <pancerz id='2.4.2' type='armor'>Ciezka zbroja</pancerz>
+                <pancerz id='2.4.3' type='armor'>Pancerz plytowy</pancerz>
+            </pancerze>
+            <dodatki_1 equipName = 'barbarianExtraEquip1'>
+                <dodatek id='2.5.1' type='jewelry'>Naszyjnik</dodatek>
+                <dodatek id='2.5.2' type='jewelry'>Czaszka pradawnego</dodatek>
+                <dodatek id='2.5.3' type='jewelry'>Amulet</dodatek>
+            </dodatki_1>
+            <dodatki_2 equipName = 'barbarianExtraEquip2'>
+                <dodatek id='2.6.1' type='mixture'>Mikstura leczenia</dodatek>
+                <dodatek id='2.6.2' type='throwing'>Kamienie</dodatek>
+                <dodatek id='2.6.3' type='mixture'>Mieso</dodatek>
+            </dodatki_2>
+        </ekwipunek>
+    </postac>
+
+    <postac id='3' className='archer' mainAbility='dexterity' secondAbility='vitality' mainSkill='rain of arrows' extraSkill='flaming arrow'>Lucznik
+        <opis>
+        Łucznik po przeżyciu pogromu spowodowanego przez demony poświęca się całkowicie zemście na siłach ciemności zagrażających Sanktuarium.
+        Zabija wrogów przy pomocy broni dystansowych, takich jak granaty, łuki i kusze.
+        Pozostaje w ruchu dzięki specjalnym umiejętnościom i unieruchamia przeciwników za pomocą sprytnie rozstawianych pułapek.
+        </opis>
+            <wyglad>
+        <![CDATA[
+        https://www.tapeciarnia.pl/tapety/normalne/tapeta-lucznik-z-frakcji-berserkow-w-grze-elex-2.jpg
+        ]]>
+        </wyglad>
+        <ekwipunek>
+            <lewa_reka>
+                <bronie equipName ='archerLWeapons'>
+                    <bron id='3.1.1' type='bow'>Luk</bron>
+                    <bron id='3.1.2' type='bow'>Kusza</bron>
+                    <bron id='3.1.3' type='throwing'>Oszczep</bron>
+                    <bron id='3.1.4' type='sword'>Miecz jednoreczny</bron>
+                    <bron id='3.1.5' type='sword'>Sztylet</bron>
+                </bronie>
+            </lewa_reka>
+            <prawa_reka>
+                <tarcze equipName ='archerShields'>
+                    <tarcza id='3.2.1' type='shield'>Puklerz</tarcza>
+                    <tarcza id='3.2.2' type='shield'>Mała tarcza</tarcza>
+                </tarcze>
+                <bronie equipName='archerRWeapons'>
+                    <bron id='3.3.1' type='ammo'>Pochwa na strzaly</bron>
+                    <bron id='3.3.2' type='ammo'>Pochwa na bełty</bron>
+                    <bron id='3.3.3' type='sword'>Sztylet</bron>
+                </bronie>
+            </prawa_reka>
+            <pancerze  equipName='archerArmors'>
+                <pancerz id='3.4.1' type='armor'>Skorzany stroj</pancerz>
+                <pancerz id='3.4.2' type='armor'>Lekka zbroja</pancerz>
+                <pancerz id='3.4.3' type='armor'>calun</pancerz>
+                <pancerz id='3.4.4' type='armor'>kolczuga</pancerz>
+            </pancerze>
+            <dodatki_1 equipName='archerExtraEquip1'>
+                <dodatek id='3.5.1' type='jewelry'>Naszyjnik</dodatek>
+                <dodatek id='3.5.2' type='throwing'>Shuriken</dodatek>
+                <dodatek id='3.5.3' type='mixture'>Trucizna</dodatek>
+            </dodatki_1>
+            <dodatki_2 equipName='archerExtraEquip2'>
+                <dodatek id='3.6.1' type='mixture'>Mikstura leczenia</dodatek>
+                <dodatek id='3.6.2' type='mixture'>Mikstura szybkosci</dodatek>
+                <dodatek id='3.6.3' type='mixture'>Mikstura zrecznosci</dodatek>
+            </dodatki_2>
+        </ekwipunek>
+    </postac>
+
+    <postac id='4' className='wizzard' mainAbility='intelligence' secondAbility='dexterity' mainSkill='flaming rain' extraSkill='storm shot'>Mag
+        <opis>
+        Magowie skupiają się w klanie Zann Esu, który jest jednym z najstarszych klanów. Magowie używają magii żywiołów i na początku gry, mogą wydawać się dość słabe. Jednak jak to było w przypadku uzdrowiciela, gra tą postacią wymaga czasu i.. cierpliwości. Nie sprawdza się w walce wręcz i walczy praktycznie tylko na odległość. 
+        </opis>
+        <wyglad>
+        <![CDATA[
+        https://www.pcgamesn.com/wp-content/sites/pcgamesn/2021/09/best-diablo-2-resurrected-sorceress-build.jpg
+        ]]>
+        </wyglad>
+        <ekwipunek>
+            <lewa_reka>
+                <bronie equipName='mageLWeapons'>
+                    <bron id='4.1.1' type='polearms'> Kostur</bron>
+                    <bron id='4.1.2' type='polearms'>Laska</bron>
+                    <bron id='4.1.3' type='polearms'>Wlocznia</bron>
+                    <bron id='4.1.4' type='magic'>Kula magii</bron>
+                </bronie>
+            </lewa_reka>
+            <prawa_reka>
+                <bronie equipName='mageRWeapons'>
+                    <bron id='4.3.1' type='polearms'>Kostur</bron>
+                    <bron id='4.3.2' type='polearms'>Laska</bron>
+                    <bron id='4.3.3' type='polearms'>Wlocznia</bron>
+                </bronie>
+            </prawa_reka>
+            <pancerze equipName='mageArmors'>
+                <pancerz id='4.4.1' type='armor'>Skorzany stroj</pancerz>
+                <pancerz id='4.4.2' type='armor'>Lekka szata</pancerz>
+                <pancerz id='4.4.3' type='armor'>calun</pancerz>
+                <pancerz id='4.4.4' type='armor'>Ciezka szata</pancerz>
+            </pancerze>
+            <dodatki_1 equipName='mageExtraEquip1'>
+                <dodatek id='4.5.1' type='magic'>Ksiega magii</dodatek>
+                <dodatek id='4.5.2' type='magic'>Runy magiczne</dodatek>
+                <dodatek id='4.5.3' type='magic'>Zwoje magiczne</dodatek>
+                <dodatek id='4.5.4' type='jewelry'>Pierscien</dodatek>
+            </dodatki_1>
+            <dodatki_2 equipName='mageExtraEquip2'>
+                <dodatek id='4.6.1' type='mixture'>Mikstura leczenia</dodatek>
+                <dodatek id='4.6.2' type='mixture'>Mikstura inteligencji</dodatek>
+                <dodatek id='4.6.3' type='mixture'>Mikstura many</dodatek>
+                <dodatek id='4.6.4' type='jewelry'>Pierscien</dodatek>
+            </dodatki_2>
+        </ekwipunek>
+    </postac>
+
+    <postac id='5' className='healer' mainAbility='vitality' secondAbility='dexterity' mainSkill='cure' extraSkill='resurrection'>Uzdrowiciel
+        <opis>
+        Uzdrowiciele wyznawcy kultu Rahmy, zgłębili tajemnice życia i śmierci dzięki czemu są w stanie ożywiać umarłych. I to zasadę trzeba sobie wziąść do serca, gdyż z uzdrowiciela wojownika uczynić się po prostu nie da. 
+        </opis>
+        <wyglad>
+        <![CDATA[
+        https://massivelyop.com/wp-content/uploads/2016/03/gw2-696x229.jpg
+        ]]>
+        </wyglad>
+        <ekwipunek>
+            <lewa_reka>
+                <bronie equipName='healerLWeapons'>
+                    <bron id='5.1.1' type='polearms'>Kostur</bron>
+                    <bron id='5.1.2' type='sword'>Sztylet</bron>
+                    <bron id='5.1.3' type='magic'>Kula uzdrowienia</bron>
+                    <bron id='5.1.4' type='axe'>Siekierka</bron>
+                </bronie>
+            </lewa_reka>
+            <prawa_reka>
+                <tarcze equipName='healerShields'>
+                    <tarcza id='5.2.1' type='shield'>Mała tarcza</tarcza>
+                </tarcze>
+                <bronie equipName='healerRWeapons'>
+                    <bron id='5.3.1' type='polearms'>Kostur</bron>
+                    <bron id='5.3.2' type='magic'>Kula absorpcji</bron>
+                    <bron id='5.3.3' type='sword'>Sztylet</bron>
+                </bronie>
+            </prawa_reka>
+            <pancerze equipName='healerArmors'>
+                <pancerz id='5.4.1' type='armor'>Skorzany stroj</pancerz>
+                <pancerz id='5.4.2' type='armor'>Lekka zbroja</pancerz>
+                <pancerz id='5.4.3' type='armor'>Kosciana szata</pancerz>
+                <pancerz id='5.4.4' type='armor'>Lekka szata</pancerz>         
+            </pancerze>
+            <dodatki_1 equipName='healerExtraEquip1'>
+                <dodatek id='5.5.1' type='magic'>Runy uzdrowienia</dodatek>
+                <dodatek id='5.5.2' type='jewelry'>Amulet</dodatek>
+                <dodatek id='5.5.3' type='jewelry'>Pas</dodatek>
+            </dodatki_1>
+            <dodatki_2 equipName='healerExtraEquip2'>
+                <dodatek id='5.6.1' type='mixture'>Mikstura leczenia</dodatek>
+                <dodatek id='5.6.2' type='mixture'>Mikstura wskrzeszenia</dodatek>
+                <dodatek id='5.6.3' type='treatment'>Opatrunki</dodatek>
+            </dodatki_2>
+        </ekwipunek>
+    </postac>
+
+    <punkty_doswiadczenia></punkty_doswiadczenia>
+
+</bohaterowie>
